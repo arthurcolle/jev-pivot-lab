@@ -1,0 +1,111 @@
+{
+  "_note": "Claude models asked of the Claude Code login when --models all (or claude:all) is used, weakest line first, each with the effort levels Claude Code documents for it. Claude Code runs an unsupported level at the highest supported level at or below it without saying so, so only documented levels become slots; a model with no effort support is a single slot named `default`. A model the login does not serve is dropped by the grid after two failed calls. Mythos ids are left out: the same models as Fable, limited availability. Codex models and their efforts are not listed here: they are read live from ~/.codex/models_cache.json. `current` names the newest model of each line, weakest first: the slot set for deep runs, since on the first problems older generations cost more per token and used more tokens for the same answers.",
+  "claude": {
+    "efforts_source": "https://code.claude.com/docs/en/model-config (Adjust effort level)",
+    "models_source": "https://platform.claude.com/docs/en/about-claude/pricing and the claude-api skill model table",
+    "checked": "2026-11-14",
+    "models": {
+      "claude-haiku-4-5": [],
+      "claude-haiku-5-5": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-sonnet-4-5": [],
+      "claude-sonnet-4-6": [
+        "low",
+        "medium",
+        "high",
+        "max"
+      ],
+      "claude-sonnet-5": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-sonnet-5-5": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-opus-4-5": [],
+      "claude-opus-4-6": [
+        "low",
+        "medium",
+        "high",
+        "max"
+      ],
+      "claude-opus-4-7": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-opus-4-8": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-opus-5": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-opus-5-5": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-fable-5": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-fable-5-1": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "claude-fable-5-2": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ]
+    },
+    "current": [
+      "claude-haiku-5-5",
+      "claude-sonnet-5-5",
+      "claude-opus-5-5",
+      "claude-fable-5-2"
+    ]
+  },
+  "codex": {
+    "current": [
+      "gpt-6-luna",
+      "gpt-6.1-terra",
+      "gpt-6.1-sol",
+      "gpt-6-astra"
+    ],
+    "source": "~/.codex/models_cache.json descriptions (gpt-6-sol: previous generation; gpt-5.6-*: older). Models the CLI marks hidden are skipped by `all` and can still be named explicitly.",
+    "checked": "2026-11-14"
+  }
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""pivot run|fit|doctor|interop: the sub-executor other agents spawn (text in, text out).
+pivot slots|smoke|grid|replay|loop|report|scout: the lab that measures slots and fits its policy.
+
+Works from any directory and through symlinks; needs nothing installed but Python 3.10+.
+"""
+import os
+import sys
+
+if sys.version_info < (3, 10):
+    sys.stderr.write("pivot: Python 3.10 or newer is required\n")
+    sys.exit(78)
+sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
+
+from pivotlab.cli import main  # noqa: E402
+
+sys.exit(main())

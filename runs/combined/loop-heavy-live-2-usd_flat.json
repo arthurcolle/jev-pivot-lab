@@ -1,0 +1,337 @@
+{
+  "fitted": {
+    "ladder": [
+      "claude-fable-5-2@low",
+      "claude-fable-5-2@medium",
+      "claude-fable-5-2@high"
+    ],
+    "map_jev": {
+      "0": 0,
+      "1": 0,
+      "2": 2,
+      "3": 2,
+      "4": 2
+    },
+    "stats": {
+      "claude-fable-5-2@low": {
+        "solved": 28,
+        "n": 34,
+        "failed_families": [
+          "inversions10",
+          "lcg",
+          "thread-inversions14"
+        ],
+        "accuracy": 0.8235294117647058,
+        "cost": 0.029426117647058825
+      },
+      "claude-fable-5-2@medium": {
+        "solved": 29,
+        "n": 34,
+        "failed_families": [
+          "inversions10",
+          "lcg",
+          "rule110",
+          "thread-inversions14"
+        ],
+        "accuracy": 0.8529411764705882,
+        "cost": 0.03041670588235294
+      },
+      "claude-fable-5-2@high": {
+        "solved": 34,
+        "n": 34,
+        "failed_families": [],
+        "accuracy": 1.0,
+        "cost": 0.038292705882352944
+      }
+    },
+    "reliable": [
+      "claude-fable-5-2@high",
+      "claude-fable-5-2@xhigh",
+      "gpt-6-astra@low",
+      "gpt-6-astra@medium",
+      "gpt-6-astra@high",
+      "gpt-6-astra@xhigh",
+      "gpt-6-astra@ultra",
+      "gpt-6-astra@max",
+      "claude-fable-5-2@max"
+    ],
+    "best": {
+      "0": "claude-fable-5-2@high",
+      "1": "claude-fable-5-2@high",
+      "2": "claude-fable-5-2@high",
+      "3": "claude-fable-5-2@high",
+      "4": "gpt-6-astra@low"
+    }
+  },
+  "runs": [
+    {
+      "thread_seed": "live-2",
+      "thread_index": 0,
+      "thread_kind": "heavy",
+      "mode": "jev-pivot (bucket)",
+      "escalate": true,
+      "hysteresis": false,
+      "turns": [
+        {
+          "turn": 1,
+          "item": "heavy-0-turn1",
+          "family": "heavy-rule110x",
+          "tier": 4,
+          "jev_difficulty": 3.71,
+          "jev_lookup": 0.02,
+          "bucket": 4,
+          "target": "gpt-6-astra@low",
+          "tried": [
+            "gpt-6-astra@low",
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.45665199999999995,
+          "cost": 0.447924,
+          "out_tokens": 9204,
+          "wall_s": 119.6,
+          "answer": "ANSWER: 249",
+          "gold": "249"
+        },
+        {
+          "turn": 2,
+          "item": "heavy-0-turn2",
+          "family": "heavy-width",
+          "tier": 0,
+          "jev_difficulty": 0.07,
+          "jev_lookup": 0.96,
+          "bucket": 0,
+          "target": "claude-fable-5-2@high",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.018528,
+          "cost": 0.009472,
+          "out_tokens": 10,
+          "wall_s": 6.2,
+          "answer": "ANSWER: 28",
+          "gold": "28"
+        },
+        {
+          "turn": 3,
+          "item": "heavy-0-turn3",
+          "family": "heavy-startcount",
+          "tier": 1,
+          "jev_difficulty": 1.64,
+          "jev_lookup": 0.15,
+          "bucket": 2,
+          "target": "claude-fable-5-2@high",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.024984,
+          "cost": 0.01568,
+          "out_tokens": 159,
+          "wall_s": 7.9,
+          "answer": "ANSWER: 12",
+          "gold": "12"
+        },
+        {
+          "turn": 4,
+          "item": "heavy-0-turn4",
+          "family": "heavy-program80",
+          "tier": 4,
+          "jev_difficulty": 3.33,
+          "jev_lookup": 0.04,
+          "bucket": 3,
+          "target": "claude-fable-5-2@high",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.104008,
+          "cost": 0.093752,
+          "out_tokens": 2087,
+          "wall_s": 22.3,
+          "answer": "ANSWER: 3160",
+          "gold": "3160"
+        },
+        {
+          "turn": 5,
+          "item": "heavy-0-turn5",
+          "family": "heavy-startx",
+          "tier": 0,
+          "jev_difficulty": 0.02,
+          "jev_lookup": 0.96,
+          "bucket": 0,
+          "target": "claude-fable-5-2@high",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.021376,
+          "cost": 0.010896,
+          "out_tokens": 10,
+          "wall_s": 5.0,
+          "answer": "ANSWER: 6",
+          "gold": "6"
+        },
+        {
+          "turn": 6,
+          "item": "heavy-0-turn6",
+          "family": "heavy-lcg",
+          "tier": 2,
+          "jev_difficulty": 2.28,
+          "jev_lookup": 0.07,
+          "bucket": 2,
+          "target": "claude-fable-5-2@high",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.027728,
+          "cost": 0.016792,
+          "out_tokens": 146,
+          "wall_s": 7.0,
+          "answer": "ANSWER: 18",
+          "gold": "18"
+        }
+      ],
+      "totals": {
+        "correct": 6,
+        "n": 6,
+        "usd": 0.6533,
+        "metric": "usd_flat",
+        "cost": 0.5945,
+        "out_tokens": 11616,
+        "wall_s": 168.0,
+        "attempts": 7
+      }
+    },
+    {
+      "thread_seed": "live-2",
+      "thread_index": 0,
+      "thread_kind": "heavy",
+      "mode": "claude-fable-5-2@high",
+      "escalate": false,
+      "hysteresis": false,
+      "turns": [
+        {
+          "turn": 1,
+          "item": "heavy-0-turn1",
+          "family": "heavy-rule110x",
+          "tier": 4,
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.294712,
+          "cost": 0.285984,
+          "out_tokens": 6931,
+          "wall_s": 55.0,
+          "answer": "ANSWER: 249",
+          "gold": "249"
+        },
+        {
+          "turn": 2,
+          "item": "heavy-0-turn2",
+          "family": "heavy-width",
+          "tier": 0,
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.018528,
+          "cost": 0.009472,
+          "out_tokens": 10,
+          "wall_s": 6.2,
+          "answer": "ANSWER: 28",
+          "gold": "28"
+        },
+        {
+          "turn": 3,
+          "item": "heavy-0-turn3",
+          "family": "heavy-startcount",
+          "tier": 1,
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.024984,
+          "cost": 0.01568,
+          "out_tokens": 159,
+          "wall_s": 7.9,
+          "answer": "ANSWER: 12",
+          "gold": "12"
+        },
+        {
+          "turn": 4,
+          "item": "heavy-0-turn4",
+          "family": "heavy-program80",
+          "tier": 4,
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.104008,
+          "cost": 0.093752,
+          "out_tokens": 2087,
+          "wall_s": 22.3,
+          "answer": "ANSWER: 3160",
+          "gold": "3160"
+        },
+        {
+          "turn": 5,
+          "item": "heavy-0-turn5",
+          "family": "heavy-startx",
+          "tier": 0,
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.021376,
+          "cost": 0.010896,
+          "out_tokens": 10,
+          "wall_s": 5.0,
+          "answer": "ANSWER: 6",
+          "gold": "6"
+        },
+        {
+          "turn": 6,
+          "item": "heavy-0-turn6",
+          "family": "heavy-lcg",
+          "tier": 2,
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true,
+          "status": "ok",
+          "usd": 0.027728,
+          "cost": 0.016792,
+          "out_tokens": 146,
+          "wall_s": 7.0,
+          "answer": "ANSWER: 18",
+          "gold": "18"
+        }
+      ],
+      "totals": {
+        "correct": 6,
+        "n": 6,
+        "usd": 0.4913,
+        "metric": "usd_flat",
+        "cost": 0.4326,
+        "out_tokens": 9343,
+        "wall_s": 103.4,
+        "attempts": 6
+      }
+    }
+  ]
+}

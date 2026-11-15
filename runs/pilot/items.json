@@ -1,0 +1,232 @@
+[
+  {
+    "id": "t0-add2-0",
+    "family": "add2",
+    "tier": 0,
+    "message": "What is 81 + 90?",
+    "gold": "171",
+    "context": [],
+    "prompt": "What is 81 + 90?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t1-mul32-0",
+    "family": "mul32",
+    "tier": 1,
+    "message": "Compute 695 * 78 exactly.",
+    "gold": "54210",
+    "context": [],
+    "prompt": "Compute 695 * 78 exactly.",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t2-lcg-0",
+    "family": "lcg",
+    "tier": 2,
+    "message": "Let x = 62. Repeat 10 times: x = (4*x + 6) mod 97. What is the final x?",
+    "gold": "91",
+    "context": [],
+    "prompt": "Let x = 62. Repeat 10 times: x = (4*x + 6) mod 97. What is the final x?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t2-base7-0",
+    "family": "base7",
+    "tier": 2,
+    "message": "Write the decimal number 29307 in base 7. Give only the base-7 digits.",
+    "gold": "151305",
+    "context": [],
+    "prompt": "Write the decimal number 29307 in base 7. Give only the base-7 digits.",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t3-program24-0",
+    "family": "program24",
+    "tier": 3,
+    "message": "Trace this program by hand.\nx = 6\ny = 6\nfor i from 1 to 24 inclusive:\n    if (x + i) is divisible by 3:\n        x = x + 2*y\n    else:\n        y = y + (x mod 7)\n        x = x + i\nWhat is the final value of x - y?",
+    "gold": "271",
+    "context": [],
+    "prompt": "Trace this program by hand.\nx = 6\ny = 6\nfor i from 1 to 24 inclusive:\n    if (x + i) is divisible by 3:\n        x = x + 2*y\n    else:\n        y = y + (x mod 7)\n        x = x + i\nWhat is the final value of x - y?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t3-modexp-0",
+    "family": "modexp",
+    "tier": 3,
+    "message": "Compute 74^658 mod 829.",
+    "gold": "507",
+    "context": [],
+    "prompt": "Compute 74^658 mod 829.",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t3-path9-0",
+    "family": "path9",
+    "tier": 3,
+    "message": "An undirected weighted graph has these edges (node-node: weight): B-I: 14, B-H: 13, A-D: 13, C-E: 13, A-G: 14, C-G: 5, D-I: 6, E-I: 14, B-G: 7, B-E: 17, C-D: 6, G-H: 13, F-H: 8, F-I: 20, D-E: 14. What is the length of the shortest path from A to I?",
+    "gold": "19",
+    "context": [],
+    "prompt": "An undirected weighted graph has these edges (node-node: weight): B-I: 14, B-H: 13, A-D: 13, C-E: 13, A-G: 14, C-G: 5, D-I: 6, E-I: 14, B-G: 7, B-E: 17, C-D: 6, G-H: 13, F-H: 8, F-I: 20, D-E: 14. What is the length of the shortest path from A to I?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t4-subsets14-0",
+    "family": "subsets14",
+    "tier": 4,
+    "message": "How many subsets of [4, 8, 11, 13, 14, 15, 22, 23, 24, 26, 30, 31, 35, 38] sum to exactly 126?",
+    "gold": "138",
+    "context": [],
+    "prompt": "How many subsets of [4, 8, 11, 13, 14, 15, 22, 23, 24, 26, 30, 31, 35, 38] sum to exactly 126?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "t4-rule110-0",
+    "family": "rule110",
+    "tier": 4,
+    "message": "20 cells sit on a ring, so the first and last cells are neighbours. Each generation, a cell becomes 1 if its (left, self, right) values are 110, 101, 011, 010 or 001, and 0 otherwise; all cells update at once. Start: 10011001000010000100. Count the 1-cells in each of generations 1 through 10 and report the total of those counts.",
+    "gold": "99",
+    "context": [],
+    "prompt": "20 cells sit on a ring, so the first and last cells are neighbours. Each generation, a cell becomes 1 if its (left, self, right) values are 110, 101, 011, 010 or 001, and 0 otherwise; all cells update at once. Start: 10011001000010000100. Count the 1-cells in each of generations 1 through 10 and report the total of those counts.",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "thread-0-turn1",
+    "family": "thread-inversions14",
+    "tier": 3,
+    "message": "Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].",
+    "gold": "23",
+    "context": [],
+    "prompt": "Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].",
+    "thread": "thread-0",
+    "turn": 0
+  },
+  {
+    "id": "thread-0-turn2",
+    "family": "thread-length",
+    "tier": 0,
+    "message": "How many numbers are in that list?",
+    "gold": "14",
+    "context": [
+      {
+        "user": "Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].",
+        "assistant": "ANSWER: 23"
+      }
+    ],
+    "prompt": "Conversation so far:\nUser: Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].\nAssistant: ANSWER: 23\n\nNew user message:\nHow many numbers are in that list?",
+    "thread": "thread-0",
+    "turn": 1
+  },
+  {
+    "id": "thread-0-turn3",
+    "family": "thread-sum3",
+    "tier": 1,
+    "message": "What is the sum of the first three numbers in the list?",
+    "gold": "97",
+    "context": [
+      {
+        "user": "Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].",
+        "assistant": "ANSWER: 23"
+      },
+      {
+        "user": "How many numbers are in that list?",
+        "assistant": "ANSWER: 14"
+      }
+    ],
+    "prompt": "Conversation so far:\nUser: Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].\nAssistant: ANSWER: 23\nUser: How many numbers are in that list?\nAssistant: ANSWER: 14\n\nNew user message:\nWhat is the sum of the first three numbers in the list?",
+    "thread": "thread-0",
+    "turn": 2
+  },
+  {
+    "id": "thread-0-turn4",
+    "family": "thread-subsets10",
+    "tier": 4,
+    "message": "How many subsets of the first ten numbers of the list sum to exactly 230?",
+    "gold": "5",
+    "context": [
+      {
+        "user": "Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].",
+        "assistant": "ANSWER: 23"
+      },
+      {
+        "user": "How many numbers are in that list?",
+        "assistant": "ANSWER: 14"
+      },
+      {
+        "user": "What is the sum of the first three numbers in the list?",
+        "assistant": "ANSWER: 97"
+      }
+    ],
+    "prompt": "Conversation so far:\nUser: Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].\nAssistant: ANSWER: 23\nUser: How many numbers are in that list?\nAssistant: ANSWER: 14\nUser: What is the sum of the first three numbers in the list?\nAssistant: ANSWER: 97\n\nNew user message:\nHow many subsets of the first ten numbers of the list sum to exactly 230?",
+    "thread": "thread-0",
+    "turn": 3
+  },
+  {
+    "id": "thread-0-turn5",
+    "family": "thread-max",
+    "tier": 0,
+    "message": "What is the largest number in the original list?",
+    "gold": "99",
+    "context": [
+      {
+        "user": "Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].",
+        "assistant": "ANSWER: 23"
+      },
+      {
+        "user": "How many numbers are in that list?",
+        "assistant": "ANSWER: 14"
+      },
+      {
+        "user": "What is the sum of the first three numbers in the list?",
+        "assistant": "ANSWER: 97"
+      },
+      {
+        "user": "How many subsets of the first ten numbers of the list sum to exactly 230?",
+        "assistant": "ANSWER: 5"
+      }
+    ],
+    "prompt": "Conversation so far:\nUser: Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].\nAssistant: ANSWER: 23\nUser: How many numbers are in that list?\nAssistant: ANSWER: 14\nUser: What is the sum of the first three numbers in the list?\nAssistant: ANSWER: 97\nUser: How many subsets of the first ten numbers of the list sum to exactly 230?\nAssistant: ANSWER: 5\n\nNew user message:\nWhat is the largest number in the original list?",
+    "thread": "thread-0",
+    "turn": 4
+  },
+  {
+    "id": "thread-0-turn6",
+    "family": "thread-oddsum",
+    "tier": 2,
+    "message": "Sort the original list in ascending order. What is the sum of the numbers in the 1st, 3rd, 5th and every other odd position of the sorted list?",
+    "gold": "384",
+    "context": [
+      {
+        "user": "Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].",
+        "assistant": "ANSWER: 23"
+      },
+      {
+        "user": "How many numbers are in that list?",
+        "assistant": "ANSWER: 14"
+      },
+      {
+        "user": "What is the sum of the first three numbers in the list?",
+        "assistant": "ANSWER: 97"
+      },
+      {
+        "user": "How many subsets of the first ten numbers of the list sum to exactly 230?",
+        "assistant": "ANSWER: 5"
+      },
+      {
+        "user": "What is the largest number in the original list?",
+        "assistant": "ANSWER: 99"
+      }
+    ],
+    "prompt": "Conversation so far:\nUser: Here is a list: L = [39, 22, 36, 66, 23, 40, 47, 84, 88, 99, 77, 52, 65, 80]. Count its inversions, meaning pairs of positions i < j whose values satisfy L[i] > L[j].\nAssistant: ANSWER: 23\nUser: How many numbers are in that list?\nAssistant: ANSWER: 14\nUser: What is the sum of the first three numbers in the list?\nAssistant: ANSWER: 97\nUser: How many subsets of the first ten numbers of the list sum to exactly 230?\nAssistant: ANSWER: 5\nUser: What is the largest number in the original list?\nAssistant: ANSWER: 99\n\nNew user message:\nSort the original list in ascending order. What is the sum of the numbers in the 1st, 3rd, 5th and every other odd position of the sorted list?",
+    "thread": "thread-0",
+    "turn": 5
+  }
+]

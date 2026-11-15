@@ -1,0 +1,5803 @@
+{
+  "metric": "out_tokens",
+  "items": 34,
+  "dropped_items": [],
+  "imputed_timeout_cells": 0,
+  "policies": {
+    "always:claude-fable-5-2@low": {
+      "n": 34,
+      "correct": 28,
+      "cost": 17756.0,
+      "wall_s": 374.7099999999999,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@medium": {
+      "n": 34,
+      "correct": 29,
+      "cost": 18649.0,
+      "wall_s": 399.48,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@high": {
+      "n": 34,
+      "correct": 34,
+      "cost": 25415.0,
+      "wall_s": 437.1300000000001,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@xhigh": {
+      "n": 34,
+      "correct": 34,
+      "cost": 38345.0,
+      "wall_s": 524.71,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@max": {
+      "n": 34,
+      "correct": 34,
+      "cost": 81918.0,
+      "wall_s": 818.3599999999998,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@low": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10048.0,
+      "wall_s": 856.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@medium": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10147.0,
+      "wall_s": 905.0000000000001,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@high": {
+      "n": 34,
+      "correct": 34,
+      "cost": 12424.0,
+      "wall_s": 947.8999999999997,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@xhigh": {
+      "n": 34,
+      "correct": 34,
+      "cost": 18994.0,
+      "wall_s": 1065.8,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@max": {
+      "n": 34,
+      "correct": 34,
+      "cost": 24415.0,
+      "wall_s": 1157.5899999999997,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@ultra": {
+      "n": 34,
+      "correct": 34,
+      "cost": 20663.0,
+      "wall_s": 1067.29,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "oracle": {
+      "n": 34,
+      "correct": 34,
+      "cost": 9257.0,
+      "wall_s": 776.9,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "cascade": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "tier-label": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty+esc": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty+esc+hyst": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.5": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.7": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.9": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.7+esc": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-choice": {
+      "n": 34,
+      "correct": 34,
+      "cost": 10458.0,
+      "wall_s": 866.0,
+      "attempts": 34,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-1-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-h12",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-inversions10-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-inversions18-h11",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-mul6-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-knapsack10-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110x-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-program80-h10",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    }
+  },
+  "diagnostics": [
+    {
+      "item": "t0-add2-0",
+      "family": "add2",
+      "tier": 0,
+      "jev_difficulty": 0.58,
+      "jev_lookup": 0.05,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t1-mul32-0",
+      "family": "mul32",
+      "tier": 1,
+      "jev_difficulty": 2.05,
+      "jev_lookup": 0.02,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@low"
+    },
+    {
+      "item": "t2-lcg-0",
+      "family": "lcg",
+      "tier": 2,
+      "jev_difficulty": 2.36,
+      "jev_lookup": 0.03,
+      "jev_bucket": 2,
+      "slots_wrong": 2,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t2-base7-0",
+      "family": "base7",
+      "tier": 2,
+      "jev_difficulty": 2.07,
+      "jev_lookup": 0.04,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@low"
+    },
+    {
+      "item": "t3-program24-0",
+      "family": "program24",
+      "tier": 3,
+      "jev_difficulty": 3.06,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t3-modexp-0",
+      "family": "modexp",
+      "tier": 3,
+      "jev_difficulty": 2.94,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t3-path9-0",
+      "family": "path9",
+      "tier": 3,
+      "jev_difficulty": 2.35,
+      "jev_lookup": 0.04,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@low"
+    },
+    {
+      "item": "t4-subsets14-0",
+      "family": "subsets14",
+      "tier": 4,
+      "jev_difficulty": 3.65,
+      "jev_lookup": 0.03,
+      "jev_bucket": 4,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t4-rule110-0",
+      "family": "rule110",
+      "tier": 4,
+      "jev_difficulty": 3.29,
+      "jev_lookup": 0.02,
+      "jev_bucket": 3,
+      "slots_wrong": 1,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "thread-0-turn1",
+      "family": "thread-inversions14",
+      "tier": 3,
+      "jev_difficulty": 3.07,
+      "jev_lookup": 0.04,
+      "jev_bucket": 3,
+      "slots_wrong": 2,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "thread-0-turn2",
+      "family": "thread-length",
+      "tier": 0,
+      "jev_difficulty": 0.82,
+      "jev_lookup": 0.53,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-0-turn3",
+      "family": "thread-sum3",
+      "tier": 1,
+      "jev_difficulty": 0.73,
+      "jev_lookup": 0.09,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@low"
+    },
+    {
+      "item": "thread-0-turn4",
+      "family": "thread-subsets10",
+      "tier": 4,
+      "jev_difficulty": 3.45,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-0-turn5",
+      "family": "thread-max",
+      "tier": 0,
+      "jev_difficulty": 0.61,
+      "jev_lookup": 0.74,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-0-turn6",
+      "family": "thread-oddsum",
+      "tier": 2,
+      "jev_difficulty": 2.45,
+      "jev_lookup": 0.06,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-1-turn1",
+      "family": "thread-inversions14",
+      "tier": 3,
+      "jev_difficulty": 3.11,
+      "jev_lookup": 0.04,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-1-turn2",
+      "family": "thread-length",
+      "tier": 0,
+      "jev_difficulty": 0.71,
+      "jev_lookup": 0.45,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-1-turn3",
+      "family": "thread-sum3",
+      "tier": 1,
+      "jev_difficulty": 0.72,
+      "jev_lookup": 0.09,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@low"
+    },
+    {
+      "item": "thread-1-turn4",
+      "family": "thread-subsets10",
+      "tier": 4,
+      "jev_difficulty": 3.5,
+      "jev_lookup": 0.03,
+      "jev_bucket": 4,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-1-turn5",
+      "family": "thread-max",
+      "tier": 0,
+      "jev_difficulty": 0.84,
+      "jev_lookup": 0.69,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-1-turn6",
+      "family": "thread-oddsum",
+      "tier": 2,
+      "jev_difficulty": 2.52,
+      "jev_lookup": 0.05,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t2-lcg-h10",
+      "family": "lcg",
+      "tier": 2,
+      "jev_difficulty": 2.24,
+      "jev_lookup": 0.04,
+      "jev_bucket": 2,
+      "slots_wrong": 1,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t2-lcg-h11",
+      "family": "lcg",
+      "tier": 2,
+      "jev_difficulty": 2.53,
+      "jev_lookup": 0.04,
+      "jev_bucket": 3,
+      "slots_wrong": 1,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t2-lcg-h12",
+      "family": "lcg",
+      "tier": 2,
+      "jev_difficulty": 2.46,
+      "jev_lookup": 0.03,
+      "jev_bucket": 2,
+      "slots_wrong": 2,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t2-inversions10-h10",
+      "family": "inversions10",
+      "tier": 2,
+      "jev_difficulty": 2.71,
+      "jev_lookup": 0.04,
+      "jev_bucket": 3,
+      "slots_wrong": 1,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t2-inversions10-h11",
+      "family": "inversions10",
+      "tier": 2,
+      "jev_difficulty": 2.91,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 1,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t3-inversions18-h10",
+      "family": "inversions18",
+      "tier": 3,
+      "jev_difficulty": 3.26,
+      "jev_lookup": 0.04,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t3-inversions18-h11",
+      "family": "inversions18",
+      "tier": 3,
+      "jev_difficulty": 3.39,
+      "jev_lookup": 0.04,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t3-path9-h10",
+      "family": "path9",
+      "tier": 3,
+      "jev_difficulty": 2.64,
+      "jev_lookup": 0.05,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@medium"
+    },
+    {
+      "item": "t3-modexp-h10",
+      "family": "modexp",
+      "tier": 3,
+      "jev_difficulty": 2.85,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t3-mul6-h10",
+      "family": "mul6",
+      "tier": 3,
+      "jev_difficulty": 3.37,
+      "jev_lookup": 0.02,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t4-knapsack10-h10",
+      "family": "knapsack10",
+      "tier": 4,
+      "jev_difficulty": 3.02,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t4-rule110x-h10",
+      "family": "rule110x",
+      "tier": 4,
+      "jev_difficulty": 3.7,
+      "jev_lookup": 0.03,
+      "jev_bucket": 4,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t4-program80-h10",
+      "family": "program80",
+      "tier": 4,
+      "jev_difficulty": 3.44,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    }
+  ],
+  "rank_correlation": {
+    "jev_difficulty_vs_slots_wrong": 0.0022673993520030003,
+    "tier_label_vs_slots_wrong": -0.06268352430206185
+  },
+  "full_ladder": [
+    "gpt-6-astra@low"
+  ],
+  "jev": {
+    "fresh": {
+      "requests": 34,
+      "input_tokens": 15256,
+      "latency_ms": 26639.800000000003
+    },
+    "requested_model": "jev-latest",
+    "resolved_models": [
+      "jev-1.14.0"
+    ],
+    "estimated_fresh_usd": 0.000641
+  }
+}

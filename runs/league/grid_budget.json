@@ -1,0 +1,14 @@
+{
+  "calls": 941,
+  "max_calls": 1300,
+  "usd_equivalent": {
+    "claude": 8.0362,
+    "codex": 2.4821
+  },
+  "max_usd": {
+    "claude": 20.0,
+    "codex": 12.0
+  },
+  "stopped_slots": {},
+  "stopped_providers": []
+}

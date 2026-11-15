@@ -1,0 +1,2693 @@
+{
+  "metric": "usd",
+  "items": 15,
+  "dropped_items": [],
+  "imputed_timeout_cells": 0,
+  "policies": {
+    "always:claude-fable-5-2@low": {
+      "n": 15,
+      "correct": 13,
+      "cost": 0.5617313999999999,
+      "wall_s": 166.95999999999998,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@medium": {
+      "n": 15,
+      "correct": 12,
+      "cost": 0.48535700000000004,
+      "wall_s": 181.1,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@high": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.5367819999999999,
+      "wall_s": 189.32000000000002,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@xhigh": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.7635384,
+      "wall_s": 224.13,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-fable-5-2@max": {
+      "n": 15,
+      "correct": 15,
+      "cost": 1.4926663999999996,
+      "wall_s": 349.01,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@max"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@low": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.5776660000000001,
+      "wall_s": 386.78000000000003,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@medium": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.545756,
+      "wall_s": 397.39,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@high": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.5536679999999999,
+      "wall_s": 400.38000000000005,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@xhigh": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.8142639999999999,
+      "wall_s": 460.60999999999996,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@xhigh"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@max": {
+      "n": 15,
+      "correct": 15,
+      "cost": 1.074508,
+      "wall_s": 527.4499999999999,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@max"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-astra@ultra": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.7896759999999998,
+      "wall_s": 462.78999999999996,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@ultra"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "oracle": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.3740646,
+      "wall_s": 302.47,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@xhigh"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "gpt-6-astra@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "cascade": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.6626480000000001,
+      "wall_s": 237.92999999999995,
+      "attempts": 18,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium",
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@medium",
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@medium",
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "tier-label": {
+      "n": 15,
+      "correct": 14,
+      "cost": 0.5693703999999999,
+      "wall_s": 209.07000000000002,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty": {
+      "n": 15,
+      "correct": 14,
+      "cost": 0.5693703999999999,
+      "wall_s": 208.83,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty+esc": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.5919313999999998,
+      "wall_s": 218.97,
+      "attempts": 16,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium",
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty+esc+hyst": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.6022959999999998,
+      "wall_s": 229.57000000000002,
+      "attempts": 16,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium",
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.5": {
+      "n": 15,
+      "correct": 13,
+      "cost": 0.5066050000000001,
+      "wall_s": 179.22,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": false
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.7": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.6149617999999999,
+      "wall_s": 248.09,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.9": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.6552203999999998,
+      "wall_s": 254.84,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "gpt-6-astra@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.7+esc": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.6149617999999999,
+      "wall_s": 248.09,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-choice": {
+      "n": 15,
+      "correct": 15,
+      "cost": 0.5957245999999999,
+      "wall_s": 231.53,
+      "attempts": 15,
+      "decisions": [
+        {
+          "item": "t0-add2-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t1-mul32-0",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-lcg-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t2-base7-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-program24-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-modexp-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t3-path9-0",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-subsets14-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "t4-rule110-0",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn1",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn2",
+          "tried": [
+            "claude-fable-5-2@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn3",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn4",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn5",
+          "tried": [
+            "gpt-6-astra@medium"
+          ],
+          "correct": true
+        },
+        {
+          "item": "thread-0-turn6",
+          "tried": [
+            "claude-fable-5-2@high"
+          ],
+          "correct": true
+        }
+      ]
+    }
+  },
+  "diagnostics": [
+    {
+      "item": "t0-add2-0",
+      "family": "add2",
+      "tier": 0,
+      "jev_difficulty": 0.58,
+      "jev_lookup": 0.05,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@low"
+    },
+    {
+      "item": "t1-mul32-0",
+      "family": "mul32",
+      "tier": 1,
+      "jev_difficulty": 2.05,
+      "jev_lookup": 0.02,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t2-lcg-0",
+      "family": "lcg",
+      "tier": 2,
+      "jev_difficulty": 2.36,
+      "jev_lookup": 0.03,
+      "jev_bucket": 2,
+      "slots_wrong": 2,
+      "cheapest_correct": "claude-fable-5-2@xhigh"
+    },
+    {
+      "item": "t2-base7-0",
+      "family": "base7",
+      "tier": 2,
+      "jev_difficulty": 2.07,
+      "jev_lookup": 0.04,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t3-program24-0",
+      "family": "program24",
+      "tier": 3,
+      "jev_difficulty": 3.06,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@medium"
+    },
+    {
+      "item": "t3-modexp-0",
+      "family": "modexp",
+      "tier": 3,
+      "jev_difficulty": 2.94,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "t3-path9-0",
+      "family": "path9",
+      "tier": 3,
+      "jev_difficulty": 2.35,
+      "jev_lookup": 0.04,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@medium"
+    },
+    {
+      "item": "t4-subsets14-0",
+      "family": "subsets14",
+      "tier": 4,
+      "jev_difficulty": 3.65,
+      "jev_lookup": 0.03,
+      "jev_bucket": 4,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "t4-rule110-0",
+      "family": "rule110",
+      "tier": 4,
+      "jev_difficulty": 3.29,
+      "jev_lookup": 0.02,
+      "jev_bucket": 3,
+      "slots_wrong": 1,
+      "cheapest_correct": "gpt-6-astra@medium"
+    },
+    {
+      "item": "thread-0-turn1",
+      "family": "thread-inversions14",
+      "tier": 3,
+      "jev_difficulty": 3.07,
+      "jev_lookup": 0.04,
+      "jev_bucket": 3,
+      "slots_wrong": 2,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-0-turn2",
+      "family": "thread-length",
+      "tier": 0,
+      "jev_difficulty": 0.82,
+      "jev_lookup": 0.53,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@high"
+    },
+    {
+      "item": "thread-0-turn3",
+      "family": "thread-sum3",
+      "tier": 1,
+      "jev_difficulty": 0.73,
+      "jev_lookup": 0.09,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@medium"
+    },
+    {
+      "item": "thread-0-turn4",
+      "family": "thread-subsets10",
+      "tier": 4,
+      "jev_difficulty": 3.45,
+      "jev_lookup": 0.03,
+      "jev_bucket": 3,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    },
+    {
+      "item": "thread-0-turn5",
+      "family": "thread-max",
+      "tier": 0,
+      "jev_difficulty": 0.61,
+      "jev_lookup": 0.74,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-fable-5-2@medium"
+    },
+    {
+      "item": "thread-0-turn6",
+      "family": "thread-oddsum",
+      "tier": 2,
+      "jev_difficulty": 2.45,
+      "jev_lookup": 0.06,
+      "jev_bucket": 2,
+      "slots_wrong": 0,
+      "cheapest_correct": "gpt-6-astra@low"
+    }
+  ],
+  "rank_correlation": {
+    "jev_difficulty_vs_slots_wrong": 0.32992435268245296,
+    "tier_label_vs_slots_wrong": 0.26639845721633626
+  },
+  "full_ladder": [
+    "claude-fable-5-2@medium",
+    "claude-fable-5-2@high"
+  ],
+  "jev": {
+    "fresh": {
+      "requests": 30,
+      "input_tokens": 18994,
+      "latency_ms": 50397.1
+    },
+    "requested_model": "jev-latest",
+    "resolved_models": [
+      "jev-1.14.0"
+    ],
+    "estimated_fresh_usd": 0.000798
+  }
+}

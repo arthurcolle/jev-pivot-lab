@@ -1,0 +1,12 @@
+{
+  "calls": 209,
+  "max_calls": 400,
+  "usd_equivalent": {
+    "claude": 4.9959,
+    "codex": 5.5092
+  },
+  "max_usd": {
+    "claude": 7.0,
+    "codex": 7.0
+  }
+}
