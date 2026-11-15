@@ -33,7 +33,7 @@ from . import meta
 from .policy import Policy
 from .router import bucket_of, jev_state, profile_questions
 from .slots import Slot, cost as receipt_cost, run_slot, usd, worst_case_usd
-from .tasks import check as answer_matches, render
+from .tasks import matches as answer_matches, render
 
 SCHEMA = "jev-pivot.run/v1"
 VERSION = "1.0.0"
@@ -82,7 +82,7 @@ class Check:
 @dataclass
 class Request:
     prompt: str
-    system: str = SYSTEM
+    system: str | None = None            # None: the instructions the policy was measured under, else SYSTEM
     context: list[dict] = field(default_factory=list)    # earlier turns: [{"user": ..., "assistant": ...}]
     budget_usd: float | None = None      # this run's allowance at list price; Jev is told what is left
     max_seconds: float = 300.0           # the whole run, every attempt included
@@ -192,6 +192,7 @@ def execute(request: Request, policy: Policy, *, jev=None, jev_error: str | None
 
     blocked = (lambda slot_id: health.blocked(slot_id)) if health else (lambda slot_id: None)
     prompt = render(request.context, request.prompt)
+    system = request.system or getattr(policy, "system", None) or SYSTEM
     result = {"schema": SCHEMA, "version": VERSION, "id": uuid.uuid4().hex[:16], "ok": False,
               "outcome": "no_answer", "text": "",
               "slot": None, "verified": None, "attempts": [], "cost_usd": 0.0, "billed_usd": 0.0,
@@ -231,7 +232,7 @@ def execute(request: Request, policy: Policy, *, jev=None, jev_error: str | None
             result["attempts"].append({"slot": slot_id, "status": "skipped", "error": reason})
             continue
         slot = policy.slots[slot_id]
-        reservation, worst = None, worst_case_usd(slot, request.system, prompt)
+        reservation, worst = None, worst_case_usd(slot, system, prompt)
         if slot.metered:
             over = (result["billed_usd"] + worst > request.billed_cap_usd
                     or (request.budget_usd is not None and result["cost_usd"] + worst > request.budget_usd))
@@ -244,7 +245,7 @@ def execute(request: Request, policy: Policy, *, jev=None, jev_error: str | None
                 continue
         allotted = max(MIN_CALL_S, min(request.call_timeout, remaining - DEADLINE_MARGIN_S))
         calls += 1
-        receipt = runner(slot, prompt, system=request.system, timeout=allotted)
+        receipt = runner(slot, prompt, system=system, timeout=allotted)
         attempt = _attempt(slot, receipt, prices)
         result["cost_usd"] += attempt["cost_usd"] or 0.0
         result["billed_usd"] += attempt["billed_usd"]

@@ -1,0 +1,14 @@
+{"id": "sentiment", "tier": 1, "prompt": "Classify the sentiment of this review as positive, negative or mixed. Reply with one word.\n'The battery lasts two days, but the screen cracked in a week.'", "expect": "mixed"}
+{"id": "contract-year", "tier": 0, "prompt": "In what year was the contract first signed?\n'This agreement, signed on 14 June 2019 and amended in 2021, renews every two years.'", "expect": "2019"}
+{"id": "distinct-emails", "tier": 2, "prompt": "How many distinct email addresses appear here? Treat addresses as case-insensitive.\na@x.com, b@y.org, A@X.com, c@z.net, b@y.org", "expect": "3"}
+{"id": "days-between", "tier": 2, "prompt": "How many days are there from 2026-02-20 to 2026-03-05, not counting the start day?", "expect": "13"}
+{"id": "python-print", "tier": 2, "prompt": "What does this Python program print?\nxs = [3, 1, 4, 1, 5, 9, 2, 6]\nprint(sum(x for x in xs if x % 2 == 1) - len(xs))", "expect": "11"}
+{"id": "batch-minutes", "tier": 1, "prompt": "A job processes 250 records per second. How many whole minutes does it need for 1,200,000 records?", "expect": "80"}
+{"id": "second-oldest", "tier": 2, "prompt": "Ann is older than Ben. Ben is older than Cy. Dee is younger than Cy. Who is the second oldest? Reply with the name only.", "expect": "Ben"}
+{"id": "sql-count", "tier": 1, "prompt": "Write a SQL query that returns the number of rows in the table named orders. Reply with the query only.", "regex": "(?is)select\\s+count\\(\\s*\\*\\s*\\)(\\s+as\\s+\\w+)?\\s+from\\s+orders"}
+{"id": "json-path", "tier": 1, "prompt": "In this JSON, what is the value of user.plan? Reply with the value only.\n{\"user\": {\"id\": 7, \"plan\": \"team\", \"seats\": 12}, \"plan\": \"legacy\"}", "expect": "team"}
+{"id": "percent-rise", "tier": 1, "prompt": "A price rises from 80 to 92. What is the percentage increase? Reply with the number only.", "expect": "15"}
+{"id": "version-sort", "tier": 3, "prompt": "Sort these version numbers in ascending order and give the third one: 1.10.0, 1.2.0, 1.9.3, 1.2.10, 1.10.1", "expect": "1.9.3"}
+{"id": "meeting-end", "tier": 2, "prompt": "A meeting starts at 14:45 and runs 2 hours 50 minutes. At what time does it end, as 24-hour HH:MM?", "expect": "17:35"}
+{"id": "leap-year", "tier": 0, "prompt": "Is 2027 a leap year? Reply yes or no.", "expect": "no"}
+{"id": "traffic-share", "tier": 1, "prompt": "Three servers handle 40%, 35% and 25% of 8,000 requests. How many requests does the second server handle?", "expect": "2800"}

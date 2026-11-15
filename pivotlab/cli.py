@@ -25,7 +25,7 @@ from . import exec_cli, gateways, scout as scout_mod, slots as slots_mod
 from .grid import Breaker, Budget, Cache, run_grid
 from .loop import fit, live_thread
 from .router import CachedJev, Grid, replay
-from .tasks import build_suite
+from .tasks import build_suite, load_items
 
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "runs"
@@ -191,7 +191,10 @@ def cmd_grid(options) -> int:
     extras = [tuple(part.split(":")) for part in options.extra.split(",")] if options.extra else []
     if any(len(extra) != 3 for extra in extras):
         raise ValueError("--extra takes seed:family:count entries separated by commas")
-    if options.items_from and options.command != "smoke":
+    system = Path(options.system_file).read_text(encoding="utf-8") if options.system_file else slots_mod.SYSTEM
+    if options.items_file and options.command != "smoke":
+        items = load_items(options.items_file)      # your own tasks, graded by expected value or pattern
+    elif options.items_from and options.command != "smoke":
         # The same problems as an earlier run, so its paid cells are reused from the cache.
         items = json.loads((RUNS / options.items_from / "items.json").read_text(encoding="utf-8"))
     else:
@@ -208,8 +211,10 @@ def cmd_grid(options) -> int:
             f"${options.max_usd_ramp} ramp, each call reserved at its worst case before it is sent")
     rows = run_grid(items, chosen, cache=Cache(RUNS / "cache" / "slot_calls.jsonl"), budget=budget,
                     prices=slots_mod.load_prices(), timeout=options.timeout, concurrency=options.concurrency,
-                    breaker=breaker, log=log)
+                    breaker=breaker, system=system, log=log)
     write_json(out / "items.json", items)
+    if options.system_file:
+        (out / "system.txt").write_text(system, encoding="utf-8")
     (out / "grid.jsonl").write_text("".join(json.dumps(row, ensure_ascii=False) + "\n" for row in rows),
                                     encoding="utf-8")
     write_json(out / "grid_budget.json", {**budget.summary(), **breaker.summary()})
@@ -408,6 +413,10 @@ def main(argv: list[str] | None = None) -> int:
                              "model in catalog.json / the Codex model cache; `current` the newest of each line; "
                              "openrouter:<vendor/model> and ramp:<model> are metered gateway slots")
     parser.add_argument("--slots", help="comma list of slot-id globs to keep, e.g. 'claude-*@high,gpt-6-*'")
+    parser.add_argument("--items-file", help="grid: your own tasks, one JSON object per line: "
+                                             '{"prompt": ..., "expect": ...} or {"prompt": ..., "regex": ...}')
+    parser.add_argument("--system-file", help="grid: the system prompt to measure under (kept with the run and "
+                                              "used by `pivot run` on a policy fitted from it)")
     parser.add_argument("--items-from", help="reuse the problems of an earlier run instead of building a suite")
     parser.add_argument("--slots-from", help="grid: only the slots an earlier run's replay shows a policy "
                                              "could pick (its ladder, offered options and reference)")

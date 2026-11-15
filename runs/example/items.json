@@ -1,0 +1,157 @@
+[
+  {
+    "id": "sentiment",
+    "family": "custom",
+    "tier": 1,
+    "message": "Classify the sentiment of this review as positive, negative or mixed. Reply with one word.\n'The battery lasts two days, but the screen cracked in a week.'",
+    "gold": "mixed",
+    "context": [],
+    "prompt": "Classify the sentiment of this review as positive, negative or mixed. Reply with one word.\n'The battery lasts two days, but the screen cracked in a week.'",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "contract-year",
+    "family": "custom",
+    "tier": 0,
+    "message": "In what year was the contract first signed?\n'This agreement, signed on 14 June 2019 and amended in 2021, renews every two years.'",
+    "gold": "2019",
+    "context": [],
+    "prompt": "In what year was the contract first signed?\n'This agreement, signed on 14 June 2019 and amended in 2021, renews every two years.'",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "distinct-emails",
+    "family": "custom",
+    "tier": 2,
+    "message": "How many distinct email addresses appear here? Treat addresses as case-insensitive.\na@x.com, b@y.org, A@X.com, c@z.net, b@y.org",
+    "gold": "3",
+    "context": [],
+    "prompt": "How many distinct email addresses appear here? Treat addresses as case-insensitive.\na@x.com, b@y.org, A@X.com, c@z.net, b@y.org",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "days-between",
+    "family": "custom",
+    "tier": 2,
+    "message": "How many days are there from 2026-02-20 to 2026-03-05, not counting the start day?",
+    "gold": "13",
+    "context": [],
+    "prompt": "How many days are there from 2026-02-20 to 2026-03-05, not counting the start day?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "python-print",
+    "family": "custom",
+    "tier": 2,
+    "message": "What does this Python program print?\nxs = [3, 1, 4, 1, 5, 9, 2, 6]\nprint(sum(x for x in xs if x % 2 == 1) - len(xs))",
+    "gold": "11",
+    "context": [],
+    "prompt": "What does this Python program print?\nxs = [3, 1, 4, 1, 5, 9, 2, 6]\nprint(sum(x for x in xs if x % 2 == 1) - len(xs))",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "batch-minutes",
+    "family": "custom",
+    "tier": 1,
+    "message": "A job processes 250 records per second. How many whole minutes does it need for 1,200,000 records?",
+    "gold": "80",
+    "context": [],
+    "prompt": "A job processes 250 records per second. How many whole minutes does it need for 1,200,000 records?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "second-oldest",
+    "family": "custom",
+    "tier": 2,
+    "message": "Ann is older than Ben. Ben is older than Cy. Dee is younger than Cy. Who is the second oldest? Reply with the name only.",
+    "gold": "Ben",
+    "context": [],
+    "prompt": "Ann is older than Ben. Ben is older than Cy. Dee is younger than Cy. Who is the second oldest? Reply with the name only.",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "sql-count",
+    "family": "custom",
+    "tier": 1,
+    "message": "Write a SQL query that returns the number of rows in the table named orders. Reply with the query only.",
+    "gold": "/(?is)select\\s+count\\(\\s*\\*\\s*\\)(\\s+as\\s+\\w+)?\\s+from\\s+orders/",
+    "context": [],
+    "prompt": "Write a SQL query that returns the number of rows in the table named orders. Reply with the query only.",
+    "thread": null,
+    "turn": null,
+    "regex": "(?is)select\\s+count\\(\\s*\\*\\s*\\)(\\s+as\\s+\\w+)?\\s+from\\s+orders"
+  },
+  {
+    "id": "json-path",
+    "family": "custom",
+    "tier": 1,
+    "message": "In this JSON, what is the value of user.plan? Reply with the value only.\n{\"user\": {\"id\": 7, \"plan\": \"team\", \"seats\": 12}, \"plan\": \"legacy\"}",
+    "gold": "team",
+    "context": [],
+    "prompt": "In this JSON, what is the value of user.plan? Reply with the value only.\n{\"user\": {\"id\": 7, \"plan\": \"team\", \"seats\": 12}, \"plan\": \"legacy\"}",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "percent-rise",
+    "family": "custom",
+    "tier": 1,
+    "message": "A price rises from 80 to 92. What is the percentage increase? Reply with the number only.",
+    "gold": "15",
+    "context": [],
+    "prompt": "A price rises from 80 to 92. What is the percentage increase? Reply with the number only.",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "version-sort",
+    "family": "custom",
+    "tier": 3,
+    "message": "Sort these version numbers in ascending order and give the third one: 1.10.0, 1.2.0, 1.9.3, 1.2.10, 1.10.1",
+    "gold": "1.9.3",
+    "context": [],
+    "prompt": "Sort these version numbers in ascending order and give the third one: 1.10.0, 1.2.0, 1.9.3, 1.2.10, 1.10.1",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "meeting-end",
+    "family": "custom",
+    "tier": 2,
+    "message": "A meeting starts at 14:45 and runs 2 hours 50 minutes. At what time does it end, as 24-hour HH:MM?",
+    "gold": "17:35",
+    "context": [],
+    "prompt": "A meeting starts at 14:45 and runs 2 hours 50 minutes. At what time does it end, as 24-hour HH:MM?",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "leap-year",
+    "family": "custom",
+    "tier": 0,
+    "message": "Is 2027 a leap year? Reply yes or no.",
+    "gold": "no",
+    "context": [],
+    "prompt": "Is 2027 a leap year? Reply yes or no.",
+    "thread": null,
+    "turn": null
+  },
+  {
+    "id": "traffic-share",
+    "family": "custom",
+    "tier": 1,
+    "message": "Three servers handle 40%, 35% and 25% of 8,000 requests. How many requests does the second server handle?",
+    "gold": "2800",
+    "context": [],
+    "prompt": "Three servers handle 40%, 35% and 25% of 8,000 requests. How many requests does the second server handle?",
+    "thread": null,
+    "turn": null
+  }
+]

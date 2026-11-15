@@ -330,6 +330,16 @@ class ExecutorTests(unittest.TestCase):
         self.assertEqual(jev.asked[0][0]["conversation"], context)
         self.assertEqual(jev.asked[1][0]["context"]["prior_turns"], 1)
 
+    def test_answers_come_under_the_instructions_the_policy_was_measured_with(self):
+        measured = make_policy(system="Reply with one word.")
+        runner = Runner({REF: receipt()})
+        executor.execute(executor.Request(prompt="q"), measured, prices={}, runner=runner)
+        self.assertEqual(runner.calls[0]["system"], "Reply with one word.")
+        executor.execute(executor.Request(prompt="q", system="Be terse."), measured, prices={}, runner=runner)
+        self.assertEqual(runner.calls[1]["system"], "Be terse.")                 # the caller's word wins
+        executor.execute(executor.Request(prompt="q"), self.policy, prices={}, runner=runner)
+        self.assertEqual(runner.calls[2]["system"], executor.SYSTEM)
+
     def test_the_journal_keeps_the_receipt_but_not_the_words(self):
         result = self.run_request(Runner({CHEAP: receipt("the secret answer")}), StubJev(select=CHEAP),
                                   prompt="a private question", check=executor.Check(regex="secret"))

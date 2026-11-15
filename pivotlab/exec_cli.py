@@ -87,8 +87,7 @@ def build_request(options) -> executor.Request:
     providers = tuple(part for part in options.providers.split(",") if part)
     if options.allow_billed:
         providers += tuple(name for name in ("openrouter", "ramp") if name not in providers)
-    system = Path(options.system_file).read_text(encoding="utf-8") if options.system_file else (
-        options.system or executor.SYSTEM)
+    system = Path(options.system_file).read_text(encoding="utf-8") if options.system_file else options.system
     return executor.Request(
         prompt=prompt, system=system, context=context, budget_usd=options.budget_usd,
         max_seconds=options.max_seconds, call_timeout=options.call_timeout, latency_target=options.latency_target,
@@ -182,6 +181,8 @@ def cmd_fit(options) -> int:
         return 2
     options.max_jev_requests = 2000
     data = compile_policy(grid, rows, lab_jev(options), source=options.source, time_value=options.time_value)
+    if (source / "system.txt").exists():        # measured under custom instructions: `run` answers under them too
+        data["system"] = (source / "system.txt").read_text(encoding="utf-8")
     out = Path(options.out) if options.out else DEFAULT_PATH
     out.parent.mkdir(parents=True, exist_ok=True)
     partial = out.with_name(out.name + ".tmp")
@@ -280,7 +281,8 @@ def main(argv: list[str]) -> int:
     parser.add_argument("command", choices=COMMANDS)
     parser.add_argument("text", nargs="*", help="run: the prompt, or `-` to read it from stdin")
     parser.add_argument("--prompt-file")
-    parser.add_argument("--system", help="run: system prompt (default: answer directly, no tools)")
+    parser.add_argument("--system", help="run: system prompt (default: the one the policy was measured under, "
+                                         "else: answer directly, no tools)")
     parser.add_argument("--system-file")
     parser.add_argument("--context-file", help='run: earlier turns as a JSON list of {"user", "assistant"}')
     parser.add_argument("--policy", help=f"policy file (default {DEFAULT_PATH})")

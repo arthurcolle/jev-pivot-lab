@@ -1,0 +1,18 @@
+{
+  "calls": 56,
+  "max_calls": 60,
+  "usd_equivalent": {
+    "claude": 0.0073,
+    "codex": 0.0052,
+    "openrouter": 0.0,
+    "ramp": 0.0
+  },
+  "max_usd": {
+    "claude": 1.0,
+    "codex": 1.0,
+    "openrouter": 0.25,
+    "ramp": 0.25
+  },
+  "stopped_slots": {},
+  "stopped_providers": []
+}

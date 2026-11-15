@@ -1,0 +1,194 @@
+{
+  "schema": "jev-pivot.policy/v1",
+  "created": "2026-11-15T04:30:21Z",
+  "source": {
+    "run": "example",
+    "problems": 14,
+    "slots": 4,
+    "metric": "usd_flat",
+    "time_value": 0.0,
+    "grid_sha256": "2a7b894f7b2e93c94c7f8d12019f8c5da4475e0170ed76d9d4b53b2aa3e44c10"
+  },
+  "jev_model": "jev-1.14.0",
+  "difficulty": [
+    "Trivial: read off a value or take one mental step.",
+    "Easy: a few simple mental steps.",
+    "Moderate: around ten careful steps of exact bookkeeping.",
+    "Hard: dozens of exact steps; a slip is likely without written working.",
+    "Extreme: a long exact computation or search; almost certainly wrong without extensive working."
+  ],
+  "reference": "claude-haiku-5-5@low",
+  "reliable": [
+    "claude-haiku-5-5@low",
+    "gpt-6-luna@high"
+  ],
+  "slots": {
+    "claude-haiku-5-5@low": {
+      "provider": "claude",
+      "model": "claude-haiku-5-5",
+      "effort": "low",
+      "price": null,
+      "solved": 14,
+      "n": 14,
+      "cost": 0.00016294285714285717,
+      "wall": 3.7685714285714282
+    },
+    "gpt-6-luna@high": {
+      "provider": "codex",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "price": null,
+      "solved": 14,
+      "n": 14,
+      "cost": 0.0005009,
+      "wall": 7.170714285714285
+    }
+  },
+  "buckets": {
+    "0": {
+      "problems": 4,
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 4,
+          "n": 4,
+          "p": 1.0,
+          "cost": 0.000165725,
+          "wall": 3.7575000000000003,
+          "price": 0.000165725,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ],
+      "standby": [
+        {
+          "slot": "gpt-6-luna@high",
+          "solved": 4,
+          "n": 4,
+          "p": 1.0,
+          "cost": 0.000500625,
+          "wall": 8.24,
+          "price": 0.000500625,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ]
+    },
+    "1": {
+      "problems": 10,
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 10,
+          "n": 10,
+          "p": 1.0,
+          "cost": 0.00016183000000000001,
+          "wall": 3.7729999999999997,
+          "price": 0.00016183000000000001,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ],
+      "standby": [
+        {
+          "slot": "gpt-6-luna@high",
+          "solved": 10,
+          "n": 10,
+          "p": 1.0,
+          "cost": 0.00050101,
+          "wall": 6.743,
+          "price": 0.00050101,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ]
+    },
+    "2": {
+      "problems": 0,
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 0,
+          "n": 0,
+          "p": 1.0,
+          "cost": 0.00016294285714285717,
+          "wall": 3.7685714285714282,
+          "price": 0.00016294285714285717,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ],
+      "standby": [
+        {
+          "slot": "gpt-6-luna@high",
+          "solved": 0,
+          "n": 0,
+          "p": 1.0,
+          "cost": 0.0005009,
+          "wall": 7.170714285714285,
+          "price": 0.0005009,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ]
+    },
+    "3": {
+      "problems": 0,
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 0,
+          "n": 0,
+          "p": 1.0,
+          "cost": 0.00016294285714285717,
+          "wall": 3.7685714285714282,
+          "price": 0.00016294285714285717,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ],
+      "standby": [
+        {
+          "slot": "gpt-6-luna@high",
+          "solved": 0,
+          "n": 0,
+          "p": 1.0,
+          "cost": 0.0005009,
+          "wall": 7.170714285714285,
+          "price": 0.0005009,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ]
+    },
+    "4": {
+      "problems": 0,
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 0,
+          "n": 0,
+          "p": 1.0,
+          "cost": 0.00016294285714285717,
+          "wall": 3.7685714285714282,
+          "price": 0.00016294285714285717,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ],
+      "standby": [
+        {
+          "slot": "gpt-6-luna@high",
+          "solved": 0,
+          "n": 0,
+          "p": 1.0,
+          "cost": 0.0005009,
+          "wall": 7.170714285714285,
+          "price": 0.0005009,
+          "overall_solved": 14,
+          "overall_n": 14
+        }
+      ]
+    }
+  }
+}

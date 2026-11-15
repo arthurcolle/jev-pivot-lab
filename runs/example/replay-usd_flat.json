@@ -1,0 +1,3581 @@
+{
+  "metric": "usd_flat",
+  "time_value": 0.0,
+  "items": 14,
+  "slots": 4,
+  "fit": "leave-one-out",
+  "selection": [
+    {
+      "item": "sentiment",
+      "bucket": 0,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 3,
+          "n": 3,
+          "p": 1.0,
+          "cost": 0.00016530000000000003,
+          "wall": 3.9000000000000004
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "contract-year",
+      "bucket": 0,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 3,
+          "n": 3,
+          "p": 1.0,
+          "cost": 0.00016906666666666667,
+          "wall": 3.8866666666666667
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "distinct-emails",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.0001612,
+          "wall": 3.8833333333333337
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "days-between",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.0001611222222222222,
+          "wall": 3.221111111111111
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "python-print",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.0001612888888888889,
+          "wall": 3.8788888888888886
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "batch-minutes",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.0001651,
+          "wall": 3.748888888888889
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "second-oldest",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.00015757777777777776,
+          "wall": 3.788888888888889
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "sql-count",
+      "bucket": 0,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 3,
+          "n": 3,
+          "p": 1.0,
+          "cost": 0.00015836666666666668,
+          "wall": 3.4466666666666668
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "json-path",
+      "bucket": 0,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 3,
+          "n": 3,
+          "p": 1.0,
+          "cost": 0.00017016666666666666,
+          "wall": 3.796666666666667
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "percent-rise",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.00016340000000000001,
+          "wall": 3.785555555555556
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "version-sort",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.00016396666666666665,
+          "wall": 3.8855555555555554
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "meeting-end",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.0001623222222222222,
+          "wall": 3.8655555555555554
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "leap-year",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.00016217777777777776,
+          "wall": 3.887777777777778
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    },
+    {
+      "item": "traffic-share",
+      "bucket": 1,
+      "reference": "claude-haiku-5-5@low",
+      "options": [
+        {
+          "slot": "claude-haiku-5-5@low",
+          "solved": 9,
+          "n": 9,
+          "p": 1.0,
+          "cost": 0.00016014444444444444,
+          "wall": 3.7844444444444445
+        }
+      ],
+      "derived": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      },
+      "jev": {
+        "blind": "claude-haiku-5-5@low",
+        "check": "claude-haiku-5-5@low",
+        "blind@0.5x": "claude-haiku-5-5@low",
+        "blind@0.25x": "claude-haiku-5-5@low"
+      }
+    }
+  ],
+  "dropped_items": [],
+  "dead_slots": [],
+  "unpriced_slots": [],
+  "imputed_timeout_cells": 0,
+  "policies": {
+    "always:claude-haiku-5-5@low": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:claude-haiku-5-5@high": {
+      "n": 14,
+      "correct": 13,
+      "cost": 0.0029258,
+      "wall_s": 59.29,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": false
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-luna@low": {
+      "n": 14,
+      "correct": 13,
+      "cost": 0.0067261,
+      "wall_s": 79.83,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": false
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "gpt-6-luna@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "always:gpt-6-luna@high": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0070126,
+      "wall_s": 100.38999999999999,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "gpt-6-luna@high"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "oracle": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022552,
+      "wall_s": 53.120000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@high"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "cascade": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "tier-label": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty+esc": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-difficulty+esc+hyst": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.5": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.7": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.9": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-gate@0.7+esc": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-choice": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-bucket-best": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "tier-bucket-best": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-bucket-cheapest": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-bucket-cheapest+esc": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "tier-bucket-cheapest": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "derived": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "derived+check": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "derived@0.5x": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "derived@0.25x": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-select": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-select+check": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-select@0.5x": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    "jev-select@0.25x": {
+      "n": 14,
+      "correct": 14,
+      "cost": 0.0022812,
+      "wall_s": 52.760000000000005,
+      "attempts": 14,
+      "decisions": [
+        {
+          "item": "sentiment",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "contract-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "distinct-emails",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "days-between",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "python-print",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "batch-minutes",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "second-oldest",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "sql-count",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "json-path",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "percent-rise",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "version-sort",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "meeting-end",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "leap-year",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        },
+        {
+          "item": "traffic-share",
+          "tried": [
+            "claude-haiku-5-5@low"
+          ],
+          "correct": true
+        }
+      ]
+    }
+  },
+  "diagnostics": [
+    {
+      "item": "sentiment",
+      "family": "custom",
+      "tier": 1,
+      "jev_difficulty": 0.49,
+      "jev_lookup": 0.17,
+      "jev_bucket": 0,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "contract-year",
+      "family": "custom",
+      "tier": 0,
+      "jev_difficulty": 0.03,
+      "jev_lookup": 0.88,
+      "jev_bucket": 0,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@high"
+    },
+    {
+      "item": "distinct-emails",
+      "family": "custom",
+      "tier": 2,
+      "jev_difficulty": 0.83,
+      "jev_lookup": 0.05,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "days-between",
+      "family": "custom",
+      "tier": 2,
+      "jev_difficulty": 1.05,
+      "jev_lookup": 0.03,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "python-print",
+      "family": "custom",
+      "tier": 2,
+      "jev_difficulty": 1.08,
+      "jev_lookup": 0.06,
+      "jev_bucket": 1,
+      "slots_wrong": 1,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "batch-minutes",
+      "family": "custom",
+      "tier": 1,
+      "jev_difficulty": 1.02,
+      "jev_lookup": 0.03,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "second-oldest",
+      "family": "custom",
+      "tier": 2,
+      "jev_difficulty": 0.63,
+      "jev_lookup": 0.2,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@high"
+    },
+    {
+      "item": "sql-count",
+      "family": "custom",
+      "tier": 1,
+      "jev_difficulty": 0.21,
+      "jev_lookup": 0.15,
+      "jev_bucket": 0,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "json-path",
+      "family": "custom",
+      "tier": 1,
+      "jev_difficulty": 0.17,
+      "jev_lookup": 0.91,
+      "jev_bucket": 0,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "percent-rise",
+      "family": "custom",
+      "tier": 1,
+      "jev_difficulty": 0.93,
+      "jev_lookup": 0.04,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "version-sort",
+      "family": "custom",
+      "tier": 3,
+      "jev_difficulty": 1.21,
+      "jev_lookup": 0.09,
+      "jev_bucket": 1,
+      "slots_wrong": 1,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "meeting-end",
+      "family": "custom",
+      "tier": 2,
+      "jev_difficulty": 0.97,
+      "jev_lookup": 0.03,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "leap-year",
+      "family": "custom",
+      "tier": 0,
+      "jev_difficulty": 0.75,
+      "jev_lookup": 0.05,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    },
+    {
+      "item": "traffic-share",
+      "family": "custom",
+      "tier": 1,
+      "jev_difficulty": 0.55,
+      "jev_lookup": 0.08,
+      "jev_bucket": 1,
+      "slots_wrong": 0,
+      "cheapest_correct": "claude-haiku-5-5@low"
+    }
+  ],
+  "rank_correlation": {
+    "jev_difficulty_vs_slots_wrong": 0.6076436202502,
+    "tier_label_vs_slots_wrong": 0.5407380704358751
+  },
+  "full_ladder": [
+    "claude-haiku-5-5@low"
+  ],
+  "full_bucket_best": {
+    "reliable": [
+      "claude-haiku-5-5@low",
+      "gpt-6-luna@high"
+    ],
+    "best": {
+      "0": "claude-haiku-5-5@low",
+      "1": "claude-haiku-5-5@low",
+      "2": "claude-haiku-5-5@low",
+      "3": "claude-haiku-5-5@low",
+      "4": "claude-haiku-5-5@low"
+    }
+  },
+  "full_stats": {
+    "claude-haiku-5-5@low": {
+      "solved": 14,
+      "cost": 0.0022812
+    },
+    "claude-haiku-5-5@high": {
+      "solved": 13,
+      "cost": 0.0029258
+    },
+    "gpt-6-luna@low": {
+      "solved": 13,
+      "cost": 0.0067261000000000005
+    },
+    "gpt-6-luna@high": {
+      "solved": 14,
+      "cost": 0.0070126
+    }
+  },
+  "jev": {
+    "fresh": {
+      "requests": 28,
+      "input_tokens": 12474,
+      "latency_ms": 12567.099999999999
+    },
+    "requested_model": "jev-latest",
+    "resolved_models": [
+      "jev-1.14.0"
+    ],
+    "estimated_fresh_usd": 0.000524
+  }
+}

@@ -78,6 +78,7 @@ class Policy:
             self.standby = {int(bucket): {option["slot"]: option for option in entry.get("standby", [])}
                             for bucket, entry in data["buckets"].items()}
             self.source, self.created = data["source"], data["created"]
+            self.system = data.get("system")        # the instructions its slots were measured under, if custom
         except (KeyError, TypeError, ValueError) as error:
             raise PolicyError(f"malformed policy: {error!r}") from error
         named = set(self.reliable) | {option["slot"] for options in self.buckets.values() for option in options}

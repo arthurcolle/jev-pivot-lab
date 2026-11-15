@@ -13,7 +13,7 @@ from pathlib import Path
 
 from . import state
 from .slots import SYSTEM, Slot, run_slot, usd, worst_case_usd
-from .tasks import check
+from .tasks import grade
 
 
 def _digest(obj) -> str:
@@ -152,7 +152,7 @@ def run_cell(item: dict, slot: Slot, *, cache: Cache, budget: Budget, prices: di
         breaker.record(slot, receipt)
     status = "ok" if receipt["ok"] else ("timeout" if receipt["error"] == "timeout" else "error")
     return {"item": item["id"], "slot": slot.id, "status": status, "cached": cached,
-            "correct": bool(receipt["ok"] and check(receipt["text"], item["gold"])),
+            "correct": bool(receipt["ok"] and grade(item, receipt["text"])),
             "usd": usd(receipt, prices), **receipt}
 
 

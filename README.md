@@ -88,6 +88,38 @@ plan and calls nothing. `./pivot run --help` lists everything.
 
 It answers from reasoning alone: slots run with tools off and no file access.
 
+## Measure your own tasks
+
+The shipped policy comes from reasoning puzzles. To find the cheapest slot for the work you actually have,
+write your tasks down with their answers, one JSON object per line:
+
+```json
+{"id": "json-path", "prompt": "In this JSON, what is the value of user.plan? ...", "expect": "team"}
+{"id": "sql-count", "prompt": "Write a SQL query that returns the number of rows in orders.", "regex": "(?is)select\\s+count\\(\\s*\\*\\s*\\)\\s+from\\s+orders"}
+```
+
+`expect` is the exact final answer (numbers compare as numbers, anything else as written); `regex` passes
+when the pattern is found in the reply. Then:
+
+```sh
+./pivot grid --name mine --items-file examples/tasks.jsonl --models claude:claude-haiku-5-5,codex:gpt-6-luna --efforts low,high
+./pivot fit --from mine --out policy/mine.json     # needs at least 10 tasks
+./pivot run --policy policy/mine.json "..."
+```
+
+On the 14 tasks in `examples/tasks.jsonl` that took 56 calls and about a cent at list prices:
+
+| Slot | Right |
+|---|---|
+| `claude-haiku-5-5@low` | 14/14 |
+| `claude-haiku-5-5@high` | 13/14 |
+| `gpt-6-luna@low` | 13/14 |
+| `gpt-6-luna@high` | 14/14 |
+
+Haiku at high effort lost its one task by replying with the whole sorted list instead of the single value
+asked for: with `expect`, the format counts. Add `--system-file` to measure under your own instructions;
+`pivot run` then answers under the same ones. More tasks give a policy worth trusting; 14 is a demonstration.
+
 ## How a slot is chosen
 
 `pivot fit` compiles a grid run into `policy/default.json`: for each of five difficulty levels, the slots
@@ -106,10 +138,9 @@ With a check the prompt is sent to TypeSafe as well as to the chosen model's pro
 
 ```sh
 ./pivot slots --models all          # every model and effort both CLIs offer on this login
-./pivot grid --name mine --models current --concurrency 12
-./pivot replay --name mine          # score routing policies against the grid (Jev calls only)
-./pivot fit --from mine             # compile the policy `pivot run` reads
-./pivot scout --name new --against mine --new-since 30 --max-usd-openrouter 3
+./pivot grid --name full --models current --concurrency 12    # the built-in problems on every current slot
+./pivot replay --name full          # score routing policies against the grid (Jev calls only)
+./pivot scout --name new --against full --new-since 30 --max-usd-openrouter 3
 ./pivot report --name league        # reprint tables from saved evidence, at no cost
 ```
 
@@ -124,12 +155,14 @@ With a check the prompt is sent to TypeSafe as well as to the chosen model's pro
 ## Evidence in this repo
 
 `runs/league` (43 slots x 34 problems), `runs/combined` (the first 11-slot grid with live conversation runs),
-`runs/gamut9` (older generations on the first problems), `runs/scout-2026-11` (the new-model screen), and
-`runs/cache` (every call's receipt). `./pivot report --name league` reprints the table above.
+`runs/gamut9` (older generations on the first problems), `runs/scout-2026-11` (the new-model screen),
+`runs/example` (the 14 example tasks), and `runs/cache` (every call's receipt).
+`./pivot report --name league` reprints the table above.
 
 ## Limits
 
-- The policy is fitted on reasoning puzzles. For other work, set a floor with `--models` or pass a check.
+- The shipped policy is fitted on reasoning puzzles. For other work, fit one on your own tasks, set a floor
+  with `--models`, or pass a check.
 - Prices and model lists are a snapshot (`prices.json`, `catalog.json`); refit when they move.
   `pivot doctor` warns when the policy is over 30 days old.
 - The Ramp Router adapter is written from its documentation and has never been run against the service.
@@ -140,7 +173,7 @@ With a check the prompt is sent to TypeSafe as well as to the chosen model's pro
 ## Tests
 
 ```sh
-python3 -m unittest discover -s tests    # 83 tests, offline: no model call, no network
+python3 -m unittest discover -s tests    # 86 tests, offline: no model call, no network
 ```
 
 They include the real command run as a child process against a scripted provider: output purity, exit

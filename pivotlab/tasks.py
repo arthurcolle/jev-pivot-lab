@@ -7,8 +7,10 @@ the grid measures the real difficulty.
 from __future__ import annotations
 
 import heapq
+import json
 import random
 import re
+from pathlib import Path
 
 ANSWER_RE = re.compile(r"ANSWER:\s*(.+)", re.IGNORECASE)
 INT_RE = re.compile(r"-?\d[\d,_]*")
@@ -301,3 +303,65 @@ def check(text: str, gold: str) -> bool:
         return int(answer) == int(gold)
     except ValueError:
         return answer == gold.strip().lower()
+
+
+def _plain(value: str) -> str:
+    return value.strip().strip("`'\"").rstrip(".").strip().lower()
+
+
+def matches(text: str, expect: str) -> bool:
+    """Is the final answer the expected value? A whole number is compared as a number; anything
+    else (a word, a date, a version) as the answer line itself, ignoring case, quotes and a full stop."""
+    try:
+        int(str(expect).replace(",", ""))
+        return check(text, str(expect).replace(",", ""))
+    except ValueError:
+        lines = ANSWER_RE.findall(text or "") or [line for line in (text or "").strip().splitlines() if line.strip()][-1:]
+        return bool(lines) and _plain(lines[-1]) == _plain(str(expect))
+
+
+def grade(item: dict, text: str) -> bool:
+    """A task with a `regex` passes when the pattern is found anywhere in the reply; any other
+    task when its final answer is the expected value."""
+    if item.get("regex"):
+        return bool(re.search(item["regex"], text or ""))
+    return matches(text, item["gold"])
+
+
+def load_items(path) -> list[dict]:
+    """Your own tasks, one JSON object per line: {"prompt": ..., "expect": ...} or {"prompt": ...,
+    "regex": ...}; optional "id", "tier" (0 easy .. 4 hard, a guess is fine) and "context" (earlier
+    turns as [{"user": ..., "assistant": ...}])."""
+    items, seen = [], set()
+    for number, line in enumerate(Path(path).read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip():
+            continue
+        try:
+            task = json.loads(line)
+        except ValueError as error:
+            raise ValueError(f"{path}:{number}: not JSON ({error})") from error
+        if not isinstance(task, dict) or not str(task.get("prompt", "")).strip():
+            raise ValueError(f"{path}:{number}: a task needs a \"prompt\"")
+        if ("expect" in task) == ("regex" in task):
+            raise ValueError(f"{path}:{number}: a task needs exactly one of \"expect\" or \"regex\"")
+        if "regex" in task:
+            try:
+                re.compile(task["regex"])
+            except re.error as error:
+                raise ValueError(f"{path}:{number}: bad regex ({error})") from error
+        item_id = str(task.get("id") or f"task-{number}")
+        if item_id in seen:
+            raise ValueError(f"{path}:{number}: duplicate id {item_id!r}")
+        seen.add(item_id)
+        tier = int(task.get("tier", 2))
+        if not 0 <= tier <= 4:
+            raise ValueError(f"{path}:{number}: tier must be 0..4")
+        gold = task["expect"] if "expect" in task else f"/{task['regex']}/"
+        item = _item(item_id, str(task.get("family") or "custom"), tier, str(task["prompt"]), gold,
+                     task.get("context") or ())
+        if "regex" in task:
+            item["regex"] = task["regex"]
+        items.append(item)
+    if not items:
+        raise ValueError(f"{path}: no tasks")
+    return items

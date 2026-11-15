@@ -135,6 +135,45 @@ class TaskTests(unittest.TestCase):
         self.assertFalse(tasks.check("ANSWER: 42", "41"))
         self.assertFalse(tasks.check("", "41"))
 
+    def test_your_own_tasks_load_and_grade_by_value_or_pattern(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "tasks.jsonl"
+
+            def load(*lines):
+                path.write_text("\n".join(json.dumps(line) if isinstance(line, dict) else line for line in lines))
+                return tasks.load_items(path)
+
+            items = load({"id": "city", "prompt": "Capital of France?", "expect": "Paris", "tier": 0},
+                         {"prompt": "Count rows in orders.", "regex": "(?i)select count\\(\\*\\) from orders"},
+                         "",
+                         {"prompt": "How many?", "expect": "2,800",
+                          "context": [{"user": "There are 2,800 rows.", "assistant": "Noted."}]})
+            self.assertEqual([i["id"] for i in items], ["city", "task-2", "task-4"])
+            self.assertEqual((items[0]["tier"], items[1]["tier"], items[1]["family"]), (0, 2, "custom"))
+            self.assertIn("There are 2,800 rows.", items[2]["prompt"])
+            self.assertTrue(tasks.grade(items[0], "ANSWER: paris."))
+            self.assertFalse(tasks.grade(items[0], "ANSWER: Lyon"))
+            self.assertTrue(tasks.grade(items[1], "ANSWER: SELECT COUNT(*) FROM orders;"))
+            self.assertFalse(tasks.grade(items[1], "ANSWER: SELECT * FROM orders"))
+            self.assertTrue(tasks.grade(items[2], "ANSWER: 2800"))
+            for bad, why in [(({"expect": "1"},), "prompt"), (({"prompt": "q"},), "exactly one"),
+                             (({"prompt": "q", "expect": "1", "regex": "1"},), "exactly one"),
+                             (({"prompt": "q", "regex": "("},), "bad regex"), (("{not json",), "not JSON"),
+                             (({"id": "a", "prompt": "q", "expect": "1"}, {"id": "a", "prompt": "r", "expect": "2"}),
+                              "duplicate"), (({"prompt": "q", "expect": "1", "tier": 9},), "tier"), ((), "no tasks")]:
+                with self.assertRaisesRegex(ValueError, why):
+                    load(*bad)
+
+    def test_expected_values_that_are_not_numbers_compare_as_written(self):
+        self.assertTrue(tasks.matches("work\nANSWER: 1.9.3", "1.9.3"))
+        self.assertFalse(tasks.matches("ANSWER: 1.10.0", "1.9.3"))
+        self.assertFalse(tasks.matches("ANSWER: 1.2.0, 1.9.3 (third: 1.9.3)", "1.9.3"))     # the format counts
+        self.assertTrue(tasks.matches("ANSWER: 17:35", "17:35"))
+        self.assertTrue(tasks.matches("`team`", "team"))
+        self.assertTrue(tasks.matches("ANSWER: 2026-03-03", "2026-03-03"))
+        self.assertTrue(tasks.matches("ANSWER: 3,563,525,602", "3563525602"))
+        self.assertFalse(tasks.matches("", "x"))
+
     def test_thread_context_carries_gold_or_actual_replies(self):
         gold = tasks.thread_items("s", 0)
         self.assertEqual(gold[0]["context"], [])
